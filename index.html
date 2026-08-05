@@ -116,6 +116,15 @@
     mask-image: radial-gradient(ellipse 70% 60% at 80% 50%, black 20%, transparent 80%);
   }
 
+  .hero-year {
+    position: absolute;
+    top: 145px; right: 58px;
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
   .hero-number {
     position: absolute;
     top: 140px; right: 48px;
@@ -654,7 +663,7 @@
     <li><a href="#projects">Projects</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="file:///C:/Users/natha/Downloads/Nathan%20Hart%20Resume%20(4).pdf" target="_blank">Resume ↗</a></li>
+    <li><a href="resume.pdf" target="_blank">Resume ↗</a></li>
   </ul>
 </nav>
 
@@ -662,6 +671,7 @@
 <section id="hero">
   <div class="hero-grid-lines"></div>
   <div class="hero-number">2029</div>
+  <div class="hero-year">class of</div>
 
   <div class="hero-left">
     <div class="hero-eyebrow">Mechanical Engineer · Boston, MA</div>
@@ -758,7 +768,7 @@
 
     <div class="project-card reveal" style="--card-accent: #f0c060">
       <div class="project-img">
-        <img src="images/Pimount.jpeg" alt="Physical Bus Terminal">
+        <img src="images/Pimountcad.png" alt="Physical Bus Terminal">
       </div>
       <div class="project-card-body">
         <div class="project-tag">Design Optimization</div>
@@ -799,7 +809,7 @@
         </div>
       </div>
     </div>
-
+    
     <div class="project-card reveal" style="--card-accent: #60f0c0">
       <div class="project-img">
         <img src="images/BasePlateProto.png" alt="Turbine Base and Generator Mount">
@@ -817,7 +827,7 @@
         <div class="project-meta">
           <div class="project-links">
           </div>
-          <div class="project-stat"><strong>100%</strong>Mission Success</div>
+          <div class="project-stat"><strong>3</strong>Subtractive Operations</div>
         </div>
       </div>
     </div>
@@ -830,10 +840,10 @@
         </div>
       </div>
     </div>
-
+    <!--
     <div class="project-card reveal" style="--card-accent: #60b4f0">
-      <div class="project-tag">Developer Tools</div>
-      <h3 class="project-title">CLI Schema Validator</h3>
+      <div class="project-tag">Sensors & Controls</div>
+      <h3 class="project-title">Over Terrain Vehicle</h3>
       <p class="project-desc">
         Open-source command-line tool for validating JSON and YAML configs against
         schemas with human-readable error output. Used across 40+ internal services
@@ -961,7 +971,7 @@
 
   </div>
 </section>
-
+-->
 <!-- ABOUT -->
 <section id="about">
   <div class="section-header reveal">
@@ -973,33 +983,30 @@
   <div class="about-grid">
     <div class="about-text reveal">
       <p>
-        I'm a <strong>backend engineer</strong> with a background in systems programming
-        and a soft spot for problems that involve scale, reliability, and making
-        complex things invisible to the people who depend on them.
+        I'm an aspiring <strong>mechanical engineer</strong> studying at the University of Maryland, College Park, with a minor in Robotics and Autonomous Systems. 
+        I enjoy learning and applying new skills regarding mechanical design and manufacturing through projects that intrest me.
+        Additionally, I find the intersection of hardware and software innovation thurouhgly interesting and am looking forward to exploring that space in the future.
       </p>
       <p>
-        Before going into software, I studied electrical engineering — which gave me
-        a deep respect for <strong>constraints, failure modes, and the gap between theory
-        and production</strong>. I try to bring that mindset to every system I design.
+        In my free time, I like to exercise and spend time outdoors, wether that's playing tennis, going on a hike, or playing Spikeball with friends.
+        I also enjoy playing the bass guitar and learning new songs to play. 
+        Board games in general are another intrest of mine and I take pride in discovering and trying out any I come across.
       </p>
       <p>
-        Currently open to full-time and contract opportunities, especially teams
-        working on developer tooling, platform infrastructure, or distributed systems.
-        I care about <strong>code review culture, on-call discipline, and writing things
-        down</strong> — if those matter to your team, let's talk.
+        Currently open to internship opportunities for summer 2027, and if you have a position that you think I would be a good fit for, please feel free to reach out.
+        Happy to explore any opportunities across all mechanical engineering industries and disciplines. Looking forward to connecting with you!
       </p>
     </div>
 
     <div class="skills-section reveal">
       <div class="skill-group">
-        <div class="skill-group-label">// Languages</div>
+        <div class="skill-group-label">// Software</div>
         <div class="skill-list">
-          <span class="skill-item">Go</span>
-          <span class="skill-item">Python</span>
-          <span class="skill-item">Rust</span>
-          <span class="skill-item">TypeScript</span>
-          <span class="skill-item">SQL</span>
-          <span class="skill-item">Bash</span>
+          <span class="skill-item">Solidworks</span>
+          <span class="skill-item">Onshape</span>
+          <span class="skill-item">Autodesk Fusion 360</span>
+          <span class="skill-item">Autodesk Generative Design</span>
+<!--
         </div>
       </div>
       <div class="skill-group">
@@ -1025,6 +1032,7 @@
       </div>
     </div>
   </div>
+-->
 </section>
 
 <!-- CONTACT -->
@@ -1048,11 +1056,11 @@
           <div class="contact-link-icon">@</div>
           nathan.hart206@gmail.com
         </a>
-        <a href="https://github.com" target="_blank" class="contact-link">
+        <a href="https://github.com/NateHart-06" target="_blank" class="contact-link">
           <div class="contact-link-icon">gh</div>
           github.com/NateHart-06
         </a>
-        <a href="https://linkedin.com" target="_blank" class="contact-link">
+        <a href="https://linkedin.com/in/nathan-d-hart" target="_blank" class="contact-link">
           <div class="contact-link-icon">in</div>
           linkedin.com/in/nathan-d-hart
         </a>
